@@ -1,5 +1,6 @@
 import { FaFacebook, FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
- import img from '../assets/IMG_4457.jpg'
+ import img from '../assets/IMG_4457.jpg';
+ import resume from './Sharmin.pdf'
 
 
 
@@ -54,7 +55,7 @@ const Hero = () => {
         </div>
         <div className="mt-6">
           <a
-            // href={resume}
+             href={resume}
             download
             className="bg-cyan-700 hover:bg-cyan-600 text-white px-6 py-3 rounded-lg shadow-md text-lg font-medium"
           >
