@@ -29,7 +29,7 @@ const EducationalQualification = () => {
   ];
 
   return (
-    <div className="container mx-auto p-6">
+    <div id="education" className="container mx-auto p-6">
       <h2 className="text-4xl font-bold text-center text-cyan-700 mb-6">Educational Qualification</h2>
       <div className="grid md:grid-cols-3 grid-cols-1 gap-6">
         {qualifications.map((qual, index) => (

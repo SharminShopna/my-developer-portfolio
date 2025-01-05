@@ -55,6 +55,15 @@ const Navbar = () => {
           Language
         </a>
       </li>
+      <li>
+        <a
+          href="#education"
+          className={activeLink === "education" ? "active" : ""}
+          onClick={() => handleLinkClick("education")}
+        >
+          Education
+        </a>
+      </li>
     </>
   );
 
