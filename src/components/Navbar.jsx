@@ -70,7 +70,7 @@ const Navbar = () => {
   return (
     <>
       <div
-        data-aos="fade-up"
+        
         className="pt-5 fixed w-[95%] top-0 z-50 backdrop-filter backdrop-blur-lg bg-opacity-30"
       >
         <div className="navbar">
