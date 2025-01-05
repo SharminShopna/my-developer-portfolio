@@ -1,5 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const ProjectDetails = () => {
   const location = useLocation();
@@ -25,6 +26,7 @@ const ProjectDetails = () => {
       <Link to={'/'} className="btn bg-cyan-700 text-white ml-4">Go Back</Link>
     </div>
     </div>
+    <Footer></Footer>
     </>
   );
 };

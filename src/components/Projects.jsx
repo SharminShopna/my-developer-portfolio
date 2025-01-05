@@ -49,7 +49,7 @@ const Projects = () => {
     navigate('/details', { state: project });
   };
   return (
-    <div className="container mx-auto px-4 py-8" data-aos='fade-up' data-aos-delay='250'>
+    <div id='projects' className="container mx-auto px-4 py-8" data-aos='fade-up' data-aos-delay='250'>
       <h2 className="text-5xl font-bold text-cyan-700 text-center mb-6">My Projects</h2>
       <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project) => (

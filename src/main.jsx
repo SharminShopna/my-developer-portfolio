@@ -8,6 +8,10 @@ import {
 } from "react-router-dom";
 import Home from './pages/Home';
 import ProjectDetails from './components/ProjectDetails';
+// import AboutMe from './components/AboutMe';
+// import Skills from './components/Skills/Skills';
+// import Projects from './components/Projects';
+// import Language from './components/Language';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -16,7 +20,23 @@ const router = createBrowserRouter([
   {
     path:"details",
     element:<ProjectDetails></ProjectDetails>
-  }
+  },
+  // {
+  //   path:"about",
+  //   element:<AboutMe></AboutMe>
+  // },
+  // {
+  //   path:"skills",
+  //   element:<Skills></Skills>
+  // },
+  // {
+  //   path:"projects",
+  //   element:<Projects></Projects>
+  // },
+  // {
+  //   path:"language",
+  //   element:<Language></Language>
+  // }
 ]);
 
 createRoot(document.getElementById('root')).render(

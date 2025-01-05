@@ -8,7 +8,8 @@ import Skills from "../components/Skills/Skills";
 import EducationalQualification from "../components/EducationQualification";
 import Projects from "../components/Projects";
 import Contact from "../components/Contact";
-// import Language from "../components/Language";
+import Footer from "../components/Footer";
+ import Language from "../components/Language";
 
 const Home = () => {
     useEffect(() =>{
@@ -26,8 +27,9 @@ const Home = () => {
         <Skills></Skills>
         <EducationalQualification></EducationalQualification>
         <Projects></Projects>
-        {/* <Language></Language> */}
+        <Language></Language>
         <Contact></Contact>
+        <Footer></Footer>
 
         </div>
             
