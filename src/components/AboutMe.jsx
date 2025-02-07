@@ -3,7 +3,7 @@ import img1 from '../assets/IMG_4466.jpg'
 const AboutMe = () => {
     return (
         <>
-        <h1 id='about' className="text-6xl font-bold text-center text-cyan-700">About Me</h1>
+        <h1 id='about' className="text-6xl font-bold text-center text-cyan-700 italic">About Me</h1>
            <div className="hero min-h-[300px] md:min-h-[600px]">
             
   <div data-aos='fade-up' data-aos-delay='200' className="hero-content flex-col lg:flex-row">

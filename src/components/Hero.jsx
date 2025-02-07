@@ -1,5 +1,5 @@
-import { FaFacebook, FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
- import img from '../assets/IMG_4457.jpg';
+import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
+ import img from '../assets/shopna.png';
  import resume from './Sharmin.pdf'
 
 
@@ -13,31 +13,22 @@ const Hero = () => {
            src={img}
             className="rounded-full h-64 w-64 p-3 border-4 border-cyan-700 " data-aos='fade-up' data-aos-delay='400' />
           <div>
-           <h1 className="text-5xl font-bold">Hi! I'm SHARMIN</h1>
+           <h1 className="text-5xl font-bold italic">Hi! I'm SHARMIN</h1>
            <p className="text-xl font-semibold text-gray-700">Frontend Developer</p>
            <p className="mt-4 max-w-xl text-gray-600">
           Passionate about crafting seamless and interactive web experiences using HTML5, CSS3, JavaScript, React, Tailwind CSS, and other modern technologies.
         </p>
         <div className="flex space-x-6 mt-6">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/SharminShopna"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-600 text-2xl"
           >
             <FaGithub />
           </a>
-        
           <a
-            href="https://twitter.com/yourusername"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sky-600 text-2xl"
-          >
-            <FaTwitter />
-          </a>
-          <a
-            href="https://facebook.com/yourusername"
+            href="https://www.facebook.com/sharmin.shopna.338"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sky-600 text-2xl"
@@ -45,12 +36,12 @@ const Hero = () => {
             <FaFacebook />
           </a>
           <a
-            href="https://instagram.com/yourusername"
+            href="https://www.linkedin.com/in/sharmin-shopna/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-red-600  text-2xl"
+            className="text-sky-600 text-2xl"
           >
-            <FaInstagram />
+            <FaLinkedin />
           </a>
         </div>
         <div className="mt-6">

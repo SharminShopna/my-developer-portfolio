@@ -29,9 +29,8 @@ const Home = () => {
         <Projects></Projects>
         <Language></Language>
         <Contact></Contact>
-        <Footer></Footer>
-
         </div>
+        <Footer></Footer>
             
         </>
     );

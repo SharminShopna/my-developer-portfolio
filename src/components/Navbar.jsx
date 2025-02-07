@@ -69,6 +69,7 @@ const Navbar = () => {
 
   return (
     <>
+    <div className="w-full justify-center flex">
       <div
         
         className="pt-5 fixed w-[95%] top-0 z-50 backdrop-filter backdrop-blur-lg bg-opacity-30"
@@ -119,6 +120,7 @@ const Navbar = () => {
             </a>
           </div>
         </div>
+      </div>
       </div>
     </>
   );

@@ -10,7 +10,7 @@ const ProjectDetails = () => {
   useEffect(()=>{
   setProject(details)
   },[details])
-  console.log(project)
+  // console.log(project)
 
   return (
     <>
@@ -23,11 +23,11 @@ const ProjectDetails = () => {
         <p><strong>Description:</strong> {project.description}</p>
         <p><strong>Challenges:</strong> {project.challenges}</p>
         <p><strong>Improvements:</strong> {project.improvements}</p>
-        <a href={project?.liveLink} target="_blank" rel="noopener noreferrer" className="text-2xl font-semibold text-cyan-800">View Live: {project.liveLink}</a>
+        <a href={project?.liveLink} target="_blank" rel="noopener noreferrer" className="text-lg md:text-2xl font-semibold text-cyan-800">View Live: {project.liveLink}</a>
         <br />
-        <a href={project.githubLinkClient} target="_blank" rel="noopener noreferrer" className="text-2xl font-semibold text-cyan-800">GitHubLinkClient: {project.githubLinkClient}</a>
+        <a href={project.githubLinkClient} target="_blank" rel="noopener noreferrer" className="text-lg md:text-2xl font-semibold text-cyan-800">GitHubLinkClient: {project.githubLinkClient}</a>
         <br />
-        <a href={project.githubLinkServer} target="_blank" rel="noopener noreferrer" className="text-2xl font-semibold text-cyan-800">GitHubLinkServer:{project.githubLinkServer} </a>
+        {/* <a href={project.githubLinkServer} target="_blank" rel="noopener noreferrer" className="text-2xl font-semibold text-cyan-800">GitHubLinkServer:{project.githubLinkServer} </a> */}
       </div>
       <Link to={'/'} className="btn bg-cyan-700 text-white ml-4">Go Back</Link>
     </div>

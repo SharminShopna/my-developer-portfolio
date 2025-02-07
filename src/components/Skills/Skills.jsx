@@ -3,11 +3,11 @@ import {
   FaHtml5,
   FaCss3Alt,
   FaJs,
-  FaBootstrap,
-  FaSass,
+  // FaBootstrap,
+  // FaSass,
   FaReact,
 } from "react-icons/fa";
-import { SiRedux, SiTailwindcss } from "react-icons/si";
+import {  SiFirebase, SiMongodb, SiTailwindcss } from "react-icons/si";
 
 const skillsData = [
   {
@@ -28,36 +28,36 @@ const skillsData = [
     color: "bg-yellow-400",
     icon: <FaJs className="text-yellow-400 text-3xl" />,
   },
-  {
-    name: "Bootstrap",
-    percentage: 80,
-    color: "bg-purple-500",
-    icon: <FaBootstrap className="text-purple-500 text-3xl" />,
-  },
+   {
+     name: "MongoDB Atlas",
+     percentage: 80,
+     color: "bg-green-700",
+     icon: <SiMongodb className="text-green-700 text-3xl" />,
+   },
   {
     name: "Tailwind",
     percentage: 80,
     color: "bg-blue-500",
     icon: <SiTailwindcss className="text-blue-500 text-3xl" />,
   },
-  {
-    name: "SCSS",
-    percentage: 75,
-    color: "bg-pink-400",
-    icon: <FaSass className="text-pink-400 text-3xl" />,
-  },
+   {
+     name: "Firebase",
+     percentage: 75,
+     color: "bg-red-600",
+     icon: <SiFirebase className="text-red-600 text-3xl" />,
+   },
   {
     name: "React",
     percentage: 80,
     color: "bg-teal-500",
     icon: <FaReact className="text-teal-500 text-3xl" />,
   },
-  {
-    name: "Redux",
-    percentage: 80,
-    color: "bg-indigo-500",
-    icon: <SiRedux className="text-indigo-500 text-3xl" />,
-  },
+  // {
+  //   name: "Redux",
+  //   percentage: 80,
+  //   color: "bg-indigo-500",
+  //   icon: <SiRedux className="text-indigo-500 text-3xl" />,
+  // },
 ];
 
 const Skills = () => {
@@ -65,7 +65,7 @@ const Skills = () => {
     return (
         <div>
              <div id="skills" data-aos='fade-up' data-aos-delay='200' className=" my-4 py-10">
-      <h1 className="text-3xl md:text-5xl font-bold text-center mb-10 bg-gradient-to-r from-orange-600 to-lime-400 bg-clip-text text-transparent border-b-4 pb-4 w-fit mx-auto">
+      <h1 className="text-3xl md:text-5xl font-bold text-center mb-10 bg-gradient-to-r from-cyan-600 to-lime-400 bg-clip-text text-transparent border-b-4 pb-4 w-fit mx-auto italic">
         My Skills
       </h1>
       <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

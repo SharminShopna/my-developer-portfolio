@@ -10,7 +10,7 @@ const Language = () => {
         <>
          <div id="language" data-aos="fade-up"
                 data-aos-delay="400" className="mt-11 text-center">
-            <h2 className="text-2xl md:text-3xl font-bold text-cyan-700 mb-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-cyan-700 mb-8 italic">
                 Languages I Know
             </h2>
             <div
