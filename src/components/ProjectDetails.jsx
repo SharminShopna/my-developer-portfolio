@@ -1,19 +1,29 @@
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import { useEffect, useState } from "react";
+import { Helmet } from "react-helmet";
 
 const ProjectDetails = () => {
   const location = useLocation();
+  const navigate = useNavigate();
   const details = location.state; 
-  const[project, setProject] = useState({})
-  useEffect(()=>{
-  setProject(details)
-  },[details])
-  
+  const [project, setProject] = useState(details || {});
+  useEffect(() => {
+    if (!details) {
+      navigate("/");
+    } else {
+      setProject(details);
+    }
+  }, [details, navigate]);
+  //  console.log(project)
 
   return (
     <>
+    <Helmet>
+        <title>Sharmin Portfolio | ProjectDetails</title>
+        <meta name="description" content="Helmet application" />
+      </Helmet>
     <div className="w-11/12 mx-auto">
     <Navbar></Navbar>
     <div className="container mx-auto px-4 py-8 bg-cyan-50 mt-28 my-4">

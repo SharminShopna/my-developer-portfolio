@@ -64,7 +64,8 @@ const Skills = () => {
     const [hoveredSkill, setHoveredSkill] = useState(null);
     return (
         <div>
-             <div id="skills" data-aos='fade-up' data-aos-delay='200' className=" my-4 py-10">
+             <div id="skills" data-aos='fade-up' data-aos-delay='200' className=" my-4 
+             py-10">
       <h1 className="text-3xl md:text-5xl font-bold text-center mb-10 bg-gradient-to-r from-cyan-600 to-lime-400 bg-clip-text text-transparent border-b-4 pb-4 w-fit mx-auto italic">
         My Skills
       </h1>

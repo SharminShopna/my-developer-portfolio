@@ -10,6 +10,7 @@ import Projects from "../components/Projects";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
  import Language from "../components/Language";
+import { Helmet } from "react-helmet";
 
 const Home = () => {
     useEffect(() =>{
@@ -20,6 +21,10 @@ const Home = () => {
     },[]);
     return (
         <>
+        <Helmet>
+        <title>Sharmin Portfolio | Home</title>
+        <meta name="description" content="Helmet application" />
+      </Helmet>
         <div className="w-11/12 mx-auto">
         <Navbar></Navbar>
         <Hero></Hero>
