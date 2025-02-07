@@ -10,7 +10,7 @@ const ProjectDetails = () => {
   useEffect(()=>{
   setProject(details)
   },[details])
-  // console.log(project)
+  //  console.log(project)
 
   return (
     <>
