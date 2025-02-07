@@ -23,7 +23,7 @@ const Hero = () => {
             href="https://github.com/SharminShopna"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-600 text-2xl"
+            className="text-gray-600 text-3xl"
           >
             <FaGithub />
           </a>
@@ -31,7 +31,7 @@ const Hero = () => {
             href="https://www.facebook.com/sharmin.shopna.338"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sky-600 text-2xl"
+            className="text-sky-600 text-3xl"
           >
             <FaFacebook />
           </a>
@@ -39,7 +39,7 @@ const Hero = () => {
             href="https://www.linkedin.com/in/sharmin-shopna/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sky-600 text-2xl"
+            className="text-sky-600 text-3xl"
           >
             <FaLinkedin />
           </a>
